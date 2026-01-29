@@ -77,11 +77,11 @@
         "title": "2019",
         "description": "PT. Altama Surya Anugerah moved into its headquarters, Altama Building, located in Bandengan, North Jakarta."
       },
-       "2021": {
-         "title": "2021",
-         "description": "PT. Altama Surya Anugerah built its second warehouse in the Moden Cikande Industrial Area, Serang Regency, Banten."
-       }
-     },
+      "2021": {
+        "title": "2021",
+        "description": "PT. Altama Surya Anugerah built its second warehouse in the Moden Cikande Industrial Area, Serang Regency, Banten."
+      }
+    },
     "navigation": {
       "back": "Back",
       "next": "Next"
@@ -165,7 +165,7 @@
       "title": "Testimonials",
       "subtitle": "What our partners say about Altama",
       "items": {
-       "1": {
+        "1": {
           "quote": "During my time working at PT Altama Surya Anugerah, I have gained many valuable new experiences. I started my career as a Mechanical Staff assigned to a branch Service Center, and now I have been promoted and given the opportunity to participate in the ALeAP program. Through ALeAP, I have gained even more experience and faced various challenges that have trained me to adapt and grow. This journey has prepared me well and made me more confident and ready to take on my new position in the future.",
           "name": "Wilman Dwi Maulana",
           "position": "Staff Mekanik"
@@ -252,5 +252,4 @@
     "readMore": "Read More",
     "noArticles": "No articles found"
   }
-}
 }

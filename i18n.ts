@@ -16,6 +16,7 @@ export default getRequestConfig(async ({ locale }) => {
   const navigation = (
     await import(`./locales/${validatedLocale}/navigation.json`)
   ).default;
+  const hero = (await import(`./locales/${validatedLocale}/hero.json`)).default;
   const home = (await import(`./locales/${validatedLocale}/home.json`)).default;
   const profile = (await import(`./locales/${validatedLocale}/profile.json`))
     .default;
@@ -33,11 +34,12 @@ export default getRequestConfig(async ({ locale }) => {
     messages: {
       ...common,
       ...navigation,
-      ...home,
-      ...profile,
-      ...lifeAtAltama,
-      ...contactUs,
-      ...privacy,
+      hero,
+      home,
+      profile,
+      lifeAtAltama,
+      contactUs,
+      privacy,
     },
   };
 });
