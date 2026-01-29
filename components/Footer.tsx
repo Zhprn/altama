@@ -36,7 +36,7 @@ export default function Footer() {
     { name: "Media Center", url: `/${locale}/media-center` },
     { name: "Gallery", url: `/${locale}/profile/gallery` },
     { name: "Career", url: `/${locale}/career/life-at-altama` },
-    { name: "Privacy Policy", url: `/${locale}/privacy` },
+    { name: "Privacy Policy", url: `/${locale}/Privacy` },
   ];
 
   return (

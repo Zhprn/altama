@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function PrivacyPage() {
-  const t = useTranslations("privacy");
+  const t = useTranslations("privacy.privacy");
 
   return (
     <>
