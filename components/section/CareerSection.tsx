@@ -89,7 +89,7 @@ export default function CareerSection() {
             jobs.slice(0, 4).map((job, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl lg:rounded-[20px] p-4 lg:p-4 flex flex-col gap-3 lg:h-[140px] lg:justify-between"
+                className="bg-white rounded-2xl lg:rounded-[20px] p-4 lg:p-4 flex flex-col gap-3 lg:justify-between"
               >
                 <div>
                   <h3 className="text-[#121212] text-[15px] lg:text-[16px] font-['Inter'] font-semibold leading-tight tracking-tight mb-1.5 lg:mb-2">

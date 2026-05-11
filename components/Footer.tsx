@@ -177,10 +177,26 @@ export default function Footer() {
         <SocialIcons />
 
         {/* Copyright and Certifications */}
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-5">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 ">
           <p className="text-white text-[12px] lg:text-[18px] font-['League_Spartan'] font-medium tracking-tight lg:tracking-[-0.72px] text-center">
             Copyright 2025 PT. Altama Surya Anugerah. All Right Reserved
           </p>
+          <Image
+            width={200}
+            height={50}
+            alt="Certifications"
+            sizes="200px"
+            className="w-[140px] h-[60px] lg:w-[200px] lg:h-[50px] object-contain"
+            src="/images/footer-3logo.webp"
+          />
+          <Image
+            width={90}
+            height={90}
+            alt="ISO Certification"
+            sizes="90px"
+            className="w-[60px] h-[60px] lg:w-[90px] lg:h-[90px] object-contain"
+            src="/images/footer-iso.webp"
+          />
         </div>
       </div>
 
