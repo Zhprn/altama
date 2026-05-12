@@ -182,14 +182,6 @@ export default function Footer() {
             Copyright 2025 PT. Altama Surya Anugerah. All Right Reserved
           </p>
           <Image
-            width={200}
-            height={50}
-            alt="Certifications"
-            sizes="200px"
-            className="w-[140px] h-[60px] lg:w-[200px] lg:h-[50px] object-contain"
-            src="/images/footer-3logo.webp"
-          />
-          <Image
             width={90}
             height={90}
             alt="ISO Certification"
