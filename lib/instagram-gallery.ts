@@ -6,17 +6,29 @@ export interface InstagramGalleryItem {
   title: string;
   link: string;
   image: string;
+  created_at: string;
+}
+
+export interface InstagramGalleryData {
+  posts: InstagramGalleryItem[];
+  paging?: {
+    cursors: {
+      before: string;
+      after: string;
+    };
+    next?: string;
+  };
 }
 
 export interface InstagramGalleryResponse {
   success: boolean;
   message: string;
-  data: InstagramGalleryItem[];
+  data: InstagramGalleryData;
 }
 
 export async function fetchInstagramGallery(): Promise<InstagramGalleryItem[]> {
-  const response = await apiClient.get<InstagramGalleryItem[]>("/instagram");
-  return response.data;
+  const response = await apiClient.get<InstagramGalleryData>("/instagram");
+  return response.data.posts;
 }
 
 export interface WebGalleryItem {
